@@ -1,0 +1,51 @@
+mycat -n file1.txt file2.txt | myhead 3 | mysort
+
+mycat -n file1.txt file2.txt | mysort | myhead 3
+
+myhead 3 file1.txt file2.txt | mycat -n | mysort
+
+myhead 3 file1.txt file2.txt | mysort | mycat -n
+
+mysort file1.txt file2.txt | mycat -n | myhead 3
+
+mysort file1.txt file2.txt | myhead 3 | mycat -n
+
+mycat -n file1.txt file2.txt | myhead 3
+
+mycat -n file1.txt file2.txt | mysort
+
+myhead 3 file1.txt file2.txt | mycat -n
+
+myhead 3 file1.txt file2.txt | mysort
+
+mysort file1.txt file2.txt | mycat -n
+
+mysort file1.txt file2.txt | myhead 3
+
+mycat -n file1.txt file2.txt
+
+myhead 3 file1.txt file2.txt
+
+mysort file1.txt file2.txt
+
+mycat file1.txt file2.txt
+
+mytime program1.exe
+
+mycp a b
+
+myls .
+
+myls a
+
+mysl
+
+
+
+
+
+
+
+
+
+
